@@ -10,5 +10,10 @@
   },
   "peerDependencies": {
     "prettier": ">=3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drod3763/js-configs.git",
+    "directory": "packages/prettier-config"
   }
 }

@@ -7,5 +7,10 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drod3763/js-configs.git",
+    "directory": "packages/tsconfig"
   }
 }

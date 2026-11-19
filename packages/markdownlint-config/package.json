@@ -10,5 +10,10 @@
   },
   "peerDependencies": {
     "markdownlint-cli2": ">=0.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drod3763/js-configs.git",
+    "directory": "packages/markdownlint-config"
   }
 }
