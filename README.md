@@ -1,4 +1,4 @@
-# configs
+# js-configs
 
 Shared developer config packages and reusable GitHub Actions workflows, published to npm under `@drod3763`.
 
@@ -143,22 +143,22 @@ All workflows use `on: workflow_call`. Add to your repo's CI:
 ```yaml
 jobs:
   lint:
-    uses: drod3763/configs/.github/workflows/lint.yml@main
+    uses: drod3763/js-configs/.github/workflows/lint.yml@main
 
   typecheck:
-    uses: drod3763/configs/.github/workflows/typecheck.yml@main
+    uses: drod3763/js-configs/.github/workflows/typecheck.yml@main
 
   format-check:
-    uses: drod3763/configs/.github/workflows/format-check.yml@main
+    uses: drod3763/js-configs/.github/workflows/format-check.yml@main
 
   markdownlint:
-    uses: drod3763/configs/.github/workflows/markdownlint.yml@main
+    uses: drod3763/js-configs/.github/workflows/markdownlint.yml@main
 
   test:
-    uses: drod3763/configs/.github/workflows/test.yml@main
+    uses: drod3763/js-configs/.github/workflows/test.yml@main
 
   commitlint:
-    uses: drod3763/configs/.github/workflows/commitlint.yml@main
+    uses: drod3763/js-configs/.github/workflows/commitlint.yml@main
     with:
       base-sha: ${{ github.event.pull_request.base.sha }}
       head-sha: ${{ github.event.pull_request.head.sha }}
